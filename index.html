@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nexamove Pro</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header>
+  <h2>🚀 Nexamove Driver Pro</h2>
+</header>
+
+<div class="container">
+
+  <div class="stats">
+    <div class="stat">
+      <small>Total Earnings</small>
+      <h2 id="earnings">₹0</h2>
+    </div>
+
+    <div class="stat">
+      <small>Completed Orders</small>
+      <h2 id="completed">0</h2>
+    </div>
+
+    <div class="stat">
+      <small>Status</small>
+      <h2 id="status">ONLINE</h2>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>📍 Live Driver Tracking</h3>
+    <iframe class="map"
+      loading="lazy"
+      allowfullscreen
+      src="https://maps.google.com/maps?q=india&t=&z=5&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+  </div>
+
+  <div class="card">
+    <div class="order">
+      <div>
+        <div class="badge">NEW ORDER</div>
+        <h3>Chicken Burger Combo</h3>
+        <p>Pickup: Downtown Kitchen</p>
+        <p>Customer: Rahul Sharma</p>
+      </div>
+
+      <div>
+        <h2>₹85</h2>
+        <button class="primary">Accept</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>
